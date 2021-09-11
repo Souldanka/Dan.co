@@ -1,0 +1,238 @@
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.t-color{
+    background-color:#F9EFE7;
+}
+
+// section navbar
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 136px 0 136px;
+}
+#navbar{
+    position: relative;
+    z-index: 3;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar-item{
+    
+};
+.navbar-items{
+    text-decoration: none;
+    padding: 0 25px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+    color: #000000;
+
+}
+.navbar-items span{
+    padding: 0 5px;
+    background:rgb(255,232,114);
+}
+.navbar_txt{
+    position: relative;
+    z-index: 1;
+    max-width: 735px;
+    padding: 0 136px;
+}
+.navbar_title{
+    position: relative;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    z-index: 1;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 76px;
+    color: #000000;
+
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+   
+};
+
+.navbar_paragraph{
+    margin: 24px 0 64px 0;
+    max-width: 496px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000000;
+};
+.btn{
+    margin-bottom: 139px;
+    width: 201px;
+    height: 59px;
+    color:white;
+    background: #000000;
+
+    
+}
+
+.navbar_title span{
+    padding: 0 5px;
+    background:rgb(255,232,114);
+    
+    
+
+}
+
+
+// section id="mywork"
+
+.content_box{
+    margin-top: 178px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 136px;
+}
+.text_box_par{
+    margin-bottom: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #B7B4B9;
+}
+.text_box_title{
+    margin-bottom: 20px;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 76px;
+    color: #000000;
+}
+.tech_box{
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    margin-bottom: 32px;
+}
+.tech_box_items{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    max-width: 164px;
+    height: 28px;
+    margin: 0 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    background: #F9EFE7;
+
+}
+.tech_box_items:first-child{
+    margin-left: 0;
+}
+
+.text_box_mpar{
+    max-width: 445px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+
+// <section id="WhatIdo"></section>
+
+.WhatIdo_title{
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 76px;
+
+    color: #000000;
+}
+
+.text_box{
+    max-width: 490px;
+}
+.WhatIdo_title span{
+    padding: 0 5px;
+    background:rgb(255,232,114);
+}
+.WhatIdo_art{
+    margin-bottom: 9px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.WhatIdo_devel{
+    margin-bottom: 9px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.WhatIdo_par{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000000;
+
+}
+
+.box_two{
+    margin-top: 80px;
+}
+
+
+
+
+footer{
+    margin-top: 160px;
+}
+.box_maine{
+    display: flex;
+    justify-content: space-between;
+}
+.p_box{
+    padding-top: 50px; 
+    padding-bottom: 24px;
+}
